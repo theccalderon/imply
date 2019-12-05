@@ -45,7 +45,7 @@ def main():
     print("Combining the files, eliminating any duplicates and write to a single .CSV file sorted alphabetically by "
           "the city name.")
     final_csv = combine_files(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
-    print("The file "+sys.argv[3] + "was created successfully")
+    print("The file "+sys.argv[4] + " was created successfully")
     print("What is the count of all rows?")
     print(len(final_csv))
     print("What is the city with the largest population?")
